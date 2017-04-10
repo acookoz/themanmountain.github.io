@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title:  "First Post"
 date:   2017-04-10 22:52:47 +0930
 categories: jekyll update
