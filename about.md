@@ -4,4 +4,5 @@ title: About
 permalink: /about/
 ---
 
-I'm not quite sure what I'm doing with this blog for the moment, but I'd like to get something started.
+Don't really know what I want to do with this blog yet, but it would be good to start
+something up
