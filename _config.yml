@@ -25,7 +25,7 @@ github_username:  themanmountain
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-midnight
+theme: jekyll-theme-dinky
 gems:
   - jekyll-feed
 exclude:
