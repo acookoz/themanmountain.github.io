@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Alex Cook
+name: Alex Cook
 email: alex@themanmountain.com
 description: > # this means to ignore newlines until "baseurl:"
   SAP Developer with 10 years experience - Fiori/UI5 focus with strong backend
@@ -22,10 +23,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://themanmountain.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: themanmountain
 github_username:  themanmountain
+github_url: "https://github.com/themanmountain"
+linkedin_url: "www.linkedin.com/in/alex-cook-1640a815"
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 theme: jekyll-theme-tactile
+highlighter: true
 gems:
   - jekyll-feed
 exclude:

@@ -29,3 +29,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "jekyll-theme-hacker"
 gem "jekyll-theme-tactile"
 gem "jekyll-theme-modernist"
+gem "redcarpet"
+gem "pygments.rb"
