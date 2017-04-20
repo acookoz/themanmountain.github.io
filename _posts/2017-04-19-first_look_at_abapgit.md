@@ -6,6 +6,8 @@ title: First look at ABAPGit & ideas on a feature
 I had my first opportunity to take a look at ABAPGit today and although it was not a win for the particular task I had to do, it made me
 excited to think about the future of ABAP development.
 
+A good implementation of Git for an ABAP stack is a potential solution to a major problem with past ABAP development - lack of ability to collaborate outside of the system and/or produce software as open source.  This is a problem the [SAPLink][saplink] project previously tried to resolve, and ABAPGit is a way to bring this concept to territory that is more familiar to developers outside of the SAP eco bubble.
+
 A client has several web apps written in [AngularJS][angular], embedded in a BSP and hosted on a Netweaver Gateway ABAP Stack.  
 The front end UI is served to the public via [Microsoft Threat Management Gateway][tmg] which is acted as a reverse proxy. The apps communicate via Gateway OData services to ERP.
 
@@ -46,7 +48,11 @@ In theory it should be straight forward to achieve the above (I'd even be keen t
 
 There may be other examples along a similar line though, for example extracting objects from the MIME repository.
 
+It could also be a way to easily deploy UI5 applications for partners/customers who do not have access to the SAP Cloud Connector.
+
 In the meantime doing individual downloads of each file has done the job so it might not even be worth revisiting, however it would be interesting to know if any other customers would find this useful.
+
+
 
 Recently Completed
 ==================
@@ -70,3 +76,4 @@ Up Next
 [filelist]: /images/2017-04-19/003.png "File List"
 [bsplist]: /images/2017-04-19/002.png "BSP file listing"
 [note]: https://launchpad.support.sap.com/#/notes/2075016
+[saplink]: https://app.assembla.com/spaces/saplink/wiki
