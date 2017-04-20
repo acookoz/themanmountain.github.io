@@ -13,11 +13,8 @@
         <h2>{{ site.description }}</h2>
       </header>
 
-      <section id="main_content">
-        {{ content }}
-      </section>
-
       <hr/>
+
       <section id="downloads" class="clearfix">
         {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download .zip</span></a>
@@ -29,6 +26,13 @@
         <a href="{{ site.github_url }}" id="view-on-github" class="button"><span>View Github Page</span></a>
   {% endif %}
       </section>
+
+     <hr/>
+
+      <section id="main_content">
+        {{ content }}
+      </section>
+
         {%  include footer.html %}
     </div>
   </div>
