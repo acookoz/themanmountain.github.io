@@ -8,8 +8,10 @@ excited to think about the future of ABAP development.
 
 A good implementation of Git for an ABAP stack is a potential solution to a major problem with past ABAP development - lack of ability to collaborate outside of the system and/or produce software as open source.  This is a problem the [SAPLink][saplink] project previously tried to resolve, and ABAPGit is a way to bring this concept to territory that is more familiar to developers outside of the SAP eco bubble.
 
-A client has several web apps written in [AngularJS][angular], embedded in a BSP and hosted on a Netweaver Gateway ABAP Stack.  
-The front end UI is served to the public via [Microsoft Threat Management Gateway][tmg] which is acted as a reverse proxy. The apps communicate via Gateway OData services to ERP.
+The Task
+========
+
+A client has several web apps written in [AngularJS][angular], embedded in a BSP and hosted on a Netweaver Gateway ABAP Stack. The front end UI is served to the public via [Microsoft Threat Management Gateway][tmg] which is acted as a reverse proxy. The apps communicate via Gateway OData services to ERP.
 
 The cost of the hosted TMG solution was fairly significant, and given that we have already produced and published some apps using
 [SAP Cloud Platform][scp], the goal was to migrate these applications to SCP; a significant cost saving and a decent performance improvement.
