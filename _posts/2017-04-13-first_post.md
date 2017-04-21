@@ -5,7 +5,7 @@ title: Joining Github Pages
 
 How good is Github Pages? Pretty cool way to start your own site.
 
-I thought I should have a go at setting up a blog use Jekyll which involved delving into some Ruby (not a lot), or more specifically Ruby's package manager Gem.
+I thought I should have a go at setting up a blog using Jekyll which involved delving into some Ruby (not a lot), or more specifically Ruby's package manager Gem.
 
 First task was to choose a different theme from the list of [Github supported themes](https://pages.github.com/themes/). I assumed incorrectly this would simply involve adding the required theme to the Gemfile and/or installing using Gem. As it turns out I couldn't get any posts to render with the new theme, so the solution was to clone the
 github repo of the [desired theme](https://github.com/ankur-gupta/jekyll-tactile-theme) and then copy and paste the bits required.
