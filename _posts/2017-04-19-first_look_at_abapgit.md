@@ -1,12 +1,12 @@
 ---
 layout: post
-title: First look at ABAPGit & ideas on a feature
+title: First look at abapGit & ideas on a feature
 ---
 
-I had my first opportunity to take a look at ABAPGit today and although it was not a win for the particular task I had to do, it made me
+I had my first opportunity to take a look at abapGit today and although it was not a win for the particular task I had to do, it made me
 excited to think about the future of ABAP development.
 
-A good implementation of Git for an ABAP stack is a potential solution to a major problem with past ABAP development - lack of ability to collaborate outside of the system and/or produce software as open source.  This is a problem the [SAPLink][saplink] project previously tried to resolve, and ABAPGit is a way to bring this concept to territory that is more familiar to developers outside of the SAP eco bubble.
+A good implementation of Git for an ABAP stack is a potential solution to a major problem with past ABAP development - lack of ability to collaborate outside of the system and/or produce software as open source.  This is a problem the [SAPLink][saplink] project previously tried to resolve, and abapGit is a way to bring this concept to territory that is more familiar to developers outside of the SAP eco bubble.
 
 The Task
 ========
@@ -16,10 +16,10 @@ A client has several web apps written in [AngularJS][angular], embedded in a BSP
 The cost of the hosted TMG solution was fairly significant, and given that we have already produced and published some apps using
 [SAP Cloud Platform][scp], the goal was to migrate these applications to SCP; a significant cost saving and a decent performance improvement.
 
-I had thought that installing ABAPGit might be the easiest way to extract the html/css/js assets after discovering that the UI5 upload/download tool (/UI5/UI5_REPOSITORY_LOAD) didn't work with regular BSPs. In hindsight that was a bad idea (see later) but it
-gave me an opportunity to get permission to install [ABAPGit][abapgit] and get a first glimpse of it.
+I had thought that installing abapGit might be the easiest way to extract the html/css/js assets after discovering that the UI5 upload/download tool (/UI5/UI5_REPOSITORY_LOAD) didn't work with regular BSPs. In hindsight that was a bad idea (see later) but it
+gave me an opportunity to get permission to install [abapGit][abapgit] and get a first glimpse of it.
 
-The ABAPGit program itself is an HTML Viewer control embedded in the SAP GUI, which is a really welcome surprise when you mostly work with ALVs and Enjoy transactions all day. It's a fairly under-utilised method of building a traditional SAP GUI application - a main requirement for a project like this is to have a program that is self contained within a single ABAP object, and this is a clever way to complete that while still having a modern user interface.
+The abapGit program itself is an HTML Viewer control embedded in the SAP GUI, which is a really welcome surprise when you mostly work with ALVs and Enjoy transactions all day. It's a fairly under-utilised method of building a traditional SAP GUI application - a main requirement for a project like this is to have a program that is self contained within a single ABAP object, and this is a clever way to complete that while still having a modern user interface.
 
 Creating a new repository is as easy as giving it a name and specifying the associated ABAP package. From there you can either download to a zip to reimport into github, or make it an "online" project and push directly.
 
