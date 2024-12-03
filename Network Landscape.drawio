@@ -257,13 +257,13 @@
           <mxGeometry x="-2405" y="424" width="220" height="124" as="geometry" />
         </mxCell>
         <mxCell id="ncHVxqRM9er0EpKqG4Er-126" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;BTP Dev&lt;/font&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.cloud;" vertex="1" parent="1">
-          <mxGeometry x="-2690" y="40" width="170" height="110" as="geometry" />
+          <mxGeometry x="-2710" y="168" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ncHVxqRM9er0EpKqG4Er-127" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;BTP Test&lt;/font&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.cloud;" vertex="1" parent="1">
-          <mxGeometry x="-2460" y="40" width="170" height="110" as="geometry" />
+          <mxGeometry x="-2450" y="168" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ncHVxqRM9er0EpKqG4Er-128" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;BTP Prod&lt;/font&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.cloud;" vertex="1" parent="1">
-          <mxGeometry x="-2230" y="40" width="170" height="110" as="geometry" />
+          <mxGeometry x="-2210" y="168" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ncHVxqRM9er0EpKqG4Er-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ncHVxqRM9er0EpKqG4Er-104" target="ncHVxqRM9er0EpKqG4Er-68">
           <mxGeometry relative="1" as="geometry" />
@@ -272,6 +272,19 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-2599.976" y="679.9840000000002" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ncHVxqRM9er0EpKqG4Er-145">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2600" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ncHVxqRM9er0EpKqG4Er-145">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2300" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-145" value="Third-party Cloud&lt;br&gt;Magento, SANA" style="image;html=1;image=img/lib/clip_art/networking/Cloud_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="-2500" y="310" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
