@@ -147,7 +147,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1456" y="250" />
-              <mxPoint x="450" y="250" />
+              <mxPoint x="461" y="250" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -157,8 +157,46 @@
         <mxCell id="ncHVxqRM9er0EpKqG4Er-117" value="SAP Analytics Agent&lt;br&gt;PSA&lt;br&gt;&lt;div&gt;Prod&lt;/div&gt;&lt;div&gt;500408381&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ncHVxqRM9er0EpKqG4Er-2">
           <mxGeometry x="1471" y="55" width="129" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-135" value="Cloud Connector (Non-Prod)&lt;div&gt;DCL&lt;/div&gt;&lt;div&gt;vhodmdclcc01 (10.50.234.19)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#82b366;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#d5e8d4;shape=mxgraph.mscae.intune.intune_connector;" vertex="1" parent="ncHVxqRM9er0EpKqG4Er-2">
+          <mxGeometry x="650" y="100" width="82" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="ncHVxqRM9er0EpKqG4Er-2" source="ncHVxqRM9er0EpKqG4Er-135" target="ncHVxqRM9er0EpKqG4Er-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="ncHVxqRM9er0EpKqG4Er-2" source="ncHVxqRM9er0EpKqG4Er-135" target="ncHVxqRM9er0EpKqG4Er-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="901" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="ncHVxqRM9er0EpKqG4Er-2" source="ncHVxqRM9er0EpKqG4Er-138" target="ncHVxqRM9er0EpKqG4Er-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1091" y="120" />
+              <mxPoint x="1091" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="ncHVxqRM9er0EpKqG4Er-2" source="ncHVxqRM9er0EpKqG4Er-138" target="ncHVxqRM9er0EpKqG4Er-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1361" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-138" value="Cloud Connector (Prod - Master)&lt;div&gt;PCL&lt;/div&gt;&lt;div&gt;vhodmpclcc01 (10.50.234.20)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#82b366;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#d5e8d4;shape=mxgraph.mscae.intune.intune_connector;" vertex="1" parent="ncHVxqRM9er0EpKqG4Er-2">
+          <mxGeometry x="955" y="100" width="82" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-139" value="Cloud Connector (Prod - Shadow)&lt;div&gt;PCL&lt;/div&gt;&lt;div&gt;vhodmpclcc02 (10.50.233.6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#82b366;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#d5e8d4;shape=mxgraph.mscae.intune.intune_connector;" vertex="1" parent="ncHVxqRM9er0EpKqG4Er-2">
+          <mxGeometry x="1146" y="100" width="82" height="59" as="geometry" />
+        </mxCell>
         <mxCell id="ncHVxqRM9er0EpKqG4Er-68" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;IBP Non-Prod&lt;/font&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.cloud;" vertex="1" parent="1">
-          <mxGeometry x="-3240" y="216" width="220" height="124" as="geometry" />
+          <mxGeometry x="-3240" y="216" width="170" height="114" as="geometry" />
         </mxCell>
         <mxCell id="ncHVxqRM9er0EpKqG4Er-69" value="&lt;div&gt;C53&lt;/div&gt;my310193.scmibp1.ondmeand.com&lt;div&gt;743792815&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-3160" y="354" width="60" height="30" as="geometry" />
@@ -186,24 +224,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ncHVxqRM9er0EpKqG4Er-101" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;IBP Prod&lt;/font&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.cloud;" vertex="1" parent="1">
-          <mxGeometry x="-2961" y="216" width="220" height="124" as="geometry" />
+          <mxGeometry x="-2992" y="216" width="171" height="114" as="geometry" />
         </mxCell>
         <mxCell id="ncHVxqRM9er0EpKqG4Er-103" value="&lt;div&gt;CXB&lt;/div&gt;my311713.scmibp1.ondemand.com&lt;br&gt;&lt;div&gt;744417200&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2881" y="354" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ncHVxqRM9er0EpKqG4Er-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ncHVxqRM9er0EpKqG4Er-104" target="ncHVxqRM9er0EpKqG4Er-68">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-3130" y="160" />
-              <mxPoint x="-3130" y="160" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ncHVxqRM9er0EpKqG4Er-104" value="SAP Identity Authentication Service (Non-Prod)&lt;div&gt;a1h65h2xm.accounts.ondemand.com&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.multi_factor_authentication;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="-3142.5" y="90" width="25" height="50" as="geometry" />
+          <mxGeometry x="-3167.5" y="110" width="25" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ncHVxqRM9er0EpKqG4Er-107" value="SAP Identity Authentication Service (Prod)&lt;div&gt;ajarfrl29.accounts.ondemand.com&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.multi_factor_authentication;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="-2863.5" y="90" width="25" height="50" as="geometry" />
+          <mxGeometry x="-2919" y="110" width="25" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ncHVxqRM9er0EpKqG4Er-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.985;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ncHVxqRM9er0EpKqG4Er-107" target="ncHVxqRM9er0EpKqG4Er-101">
           <mxGeometry relative="1" as="geometry" />
@@ -214,18 +244,34 @@
         <mxCell id="ncHVxqRM9er0EpKqG4Er-110" value="&lt;div&gt;codan.ap10.hcs.cloud.sap&lt;/div&gt;&lt;div&gt;744191349&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1840" y="360" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ncHVxqRM9er0EpKqG4Er-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ncHVxqRM9er0EpKqG4Er-84" target="ncHVxqRM9er0EpKqG4Er-101">
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-115" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;SAC (Single Tenant)&lt;/font&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.cloud;" vertex="1" parent="1">
+          <mxGeometry x="-1925" y="240" width="230" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-124" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;SCI Non-Prod&lt;/font&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.cloud;" vertex="1" parent="1">
+          <mxGeometry x="-2710" y="424" width="220" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="ncHVxqRM9er0EpKqG4Er-125" target="ncHVxqRM9er0EpKqG4Er-138">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ncHVxqRM9er0EpKqG4Er-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ncHVxqRM9er0EpKqG4Er-84" target="ncHVxqRM9er0EpKqG4Er-68">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-3000" y="278" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-125" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;SCI Prod&lt;/font&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.cloud;" vertex="1" parent="1">
+          <mxGeometry x="-2405" y="424" width="220" height="124" as="geometry" />
         </mxCell>
-        <mxCell id="ncHVxqRM9er0EpKqG4Er-115" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;SAC (Single Tenant)&lt;/font&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.cloud;" vertex="1" parent="1">
-          <mxGeometry x="-1920" y="216" width="220" height="124" as="geometry" />
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-126" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;BTP Dev&lt;/font&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.cloud;" vertex="1" parent="1">
+          <mxGeometry x="-2690" y="40" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-127" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;BTP Test&lt;/font&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.cloud;" vertex="1" parent="1">
+          <mxGeometry x="-2460" y="40" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-128" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;BTP Prod&lt;/font&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.cloud;" vertex="1" parent="1">
+          <mxGeometry x="-2230" y="40" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ncHVxqRM9er0EpKqG4Er-104" target="ncHVxqRM9er0EpKqG4Er-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ncHVxqRM9er0EpKqG4Er-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="ncHVxqRM9er0EpKqG4Er-124" target="ncHVxqRM9er0EpKqG4Er-135">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2599.976" y="679.9840000000002" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
