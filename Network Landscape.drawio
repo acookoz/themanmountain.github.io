@@ -495,7 +495,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="441" y="340" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="791" y="190" />
+              <mxPoint x="551" y="190" />
               <mxPoint x="442" y="190" />
               <mxPoint x="442" y="340" />
             </Array>
@@ -505,9 +505,19 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="901" y="340" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="791" y="190" />
+              <mxPoint x="551" y="190" />
               <mxPoint x="902" y="190" />
               <mxPoint x="902" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbV78w74_1bfSG6gxE-7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;fillColor=#e3c800;strokeColor=#B09500;" edge="1" parent="FFiNUPR-P0tPr-f4P6k8-1" source="8k_YexadOLR-lbQNAXNU-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1361" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="551" y="190" />
+              <mxPoint x="1362" y="190" />
+              <mxPoint x="1362" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -559,11 +569,12 @@
         <mxCell id="u3HcybCwE4aE1t3y1rkR-6" value="SAPRouter and DNS Forwarder&lt;div&gt;auazrsaprdns01&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="A2q-9Z5ocEOl7eWk4JQq-46">
           <mxGeometry x="1470" y="95" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FFiNUPR-P0tPr-f4P6k8-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e1d5e7;strokeColor=#9673a6;endArrow=none;endFill=0;" edge="1" parent="1" source="FFiNUPR-P0tPr-f4P6k8-32" target="FFiNUPR-P0tPr-f4P6k8-26">
+        <mxCell id="FFiNUPR-P0tPr-f4P6k8-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e1d5e7;strokeColor=#9673a6;endArrow=none;endFill=0;entryX=0;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FFiNUPR-P0tPr-f4P6k8-32" target="FFiNUPR-P0tPr-f4P6k8-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-3155" y="870" />
-              <mxPoint x="-1930" y="870" />
+              <mxPoint x="-1940" y="870" />
+              <mxPoint x="-1940" y="949" />
             </Array>
           </mxGeometry>
         </mxCell>
