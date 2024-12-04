@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1" pages="2">
   <diagram name="Page-1" id="deqeyOW_WQNbW6h4rGe_">
-    <mxGraphModel dx="5018" dy="1012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6495" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -198,6 +198,9 @@
         <mxCell id="ncHVxqRM9er0EpKqG4Er-139" value="Cloud Connector (Prod - Shadow)&lt;div&gt;PCL&lt;/div&gt;&lt;div&gt;vhodmpclcc02 (10.50.233.6)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#82b366;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#d5e8d4;shape=mxgraph.mscae.intune.intune_connector;" vertex="1" parent="ncHVxqRM9er0EpKqG4Er-2">
           <mxGeometry x="1211" y="100" width="82" height="59" as="geometry" />
         </mxCell>
+        <mxCell id="Mi3zG3_bDXCGsW9x52gR-1" value="Squid Proxy&lt;div&gt;https://proxy:3128&lt;/div&gt;" style="fontColor=#000000;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;" vertex="1" parent="ncHVxqRM9er0EpKqG4Er-2">
+          <mxGeometry x="636" y="32" width="100" height="35" as="geometry" />
+        </mxCell>
         <mxCell id="ncHVxqRM9er0EpKqG4Er-68" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;IBP Non-Prod&lt;/font&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.cloud;" vertex="1" parent="1">
           <mxGeometry x="-3240" y="216" width="170" height="114" as="geometry" />
         </mxCell>
@@ -338,14 +341,6 @@
         <mxCell id="ncHVxqRM9er0EpKqG4Er-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ncHVxqRM9er0EpKqG4Er-173" target="ncHVxqRM9er0EpKqG4Er-115">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ncHVxqRM9er0EpKqG4Er-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="ncHVxqRM9er0EpKqG4Er-128" target="ncHVxqRM9er0EpKqG4Er-138">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-2105" y="670" />
-              <mxPoint x="-2209" y="670" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ncHVxqRM9er0EpKqG4Er-177" value="&lt;div&gt;codangroup.minelab.com (Plexus Launchpad)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Users.svg;" vertex="1" parent="1">
           <mxGeometry x="-1960" y="10" width="64" height="70" as="geometry" />
         </mxCell>
@@ -368,6 +363,18 @@
         </mxCell>
         <mxCell id="HeuR7yHdFu39pA2XKuu0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.9;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="ncHVxqRM9er0EpKqG4Er-124" target="ncHVxqRM9er0EpKqG4Er-135">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mi3zG3_bDXCGsW9x52gR-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="ncHVxqRM9er0EpKqG4Er-128" target="Mi3zG3_bDXCGsW9x52gR-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2105" y="288" as="sourcePoint" />
+            <mxPoint x="-2209" y="707" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2105" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mi3zG3_bDXCGsW9x52gR-2" value="Squid Proxy&lt;div&gt;https://proxy:3128&lt;/div&gt;" style="fontColor=#000000;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;" vertex="1" parent="1">
+          <mxGeometry x="-2280" y="629" width="100" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
